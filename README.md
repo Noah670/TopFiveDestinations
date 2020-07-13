@@ -1,2 +1,2 @@
 # TopFiveDestinations
-Some of my favourite travel destinations that I have visited.
+Some of my favourite places that I love to travel to.
