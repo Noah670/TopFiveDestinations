@@ -30,14 +30,14 @@ class TopDestinationListFrame extends JFrame {
         listModel = new DefaultListModel();
         
         // Create a new label to be displayed at the top of the page
-        JLabel myName = new JLabel("  Noah Pohl © 2020");
+        JLabel myName = new JLabel("  Noah Pohl Â© 2020");
         // set bounds to be displayed
 		myName.setBounds(200, 0, 300, 100);
 		getContentPane().add(myName);
 		
 		
 
-        //Make updates to your top 5 list below. Import the new image files to resources directory.
+        // Travel Destinations that are cool
         addDestinationNameAndPicture("1. Tokyo, Japan: An amazing city where tradition and the ultramodern blend together ! (Tokyo Tower)", new ImageIcon(getClass().getResource("/resources/tokyo.jpg")));
         addDestinationNameAndPicture("2. Amsterdam, Netherlands: A city filled with history, culture, tulips and windmills. (Rijksmuseum museum)", new ImageIcon(getClass().getResource("/resources/amsterdam.jpg")));
         addDestinationNameAndPicture("3. Bangkok, Thailand: Come taste the best street food in the world and visit the Grand palace. (Tourism Thailand)", new ImageIcon(getClass().getResource("/resources/bangkok.jpg")));
@@ -147,10 +147,7 @@ class TextAndIconListCellRenderer extends JLabel implements ListCellRenderer {
         return this;
     }
 
-    // The following methods are overridden to be empty for performance
-    // reasons. If you want to understand better why, please read:
-    //
-    // http://java.sun.com/javase/6/docs/api/javax/swing/DefaultListCellRenderer.html#override
+    // Methods to Override
 
     public void validate() {}
     public void invalidate() {}
